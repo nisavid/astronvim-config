@@ -107,14 +107,6 @@ return {
       -- Disable `alpha_autostart` due to incompatibility
       -- with `restore_session` (below)
       alpha_autostart = false,
-      -- Workaround for https://github.com/folke/trouble.nvim/issues/253
-      close_trouble_before_quit = {
-        desc = "Close Trouble window before quitting",
-        event = "QuitPre",
-        callback = function()
-          if require("lazy.core.config").plugins["trouble.nvim"]._.loaded then vim.cmd.TroubleClose() end
-        end,
-      },
       cursorlines_only_in_curr_win = {
         {
           desc = "Enable cursorcolumn/cursorline in current window",

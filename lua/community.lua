@@ -39,8 +39,44 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   {
     "folke/trouble.nvim",
+    branch = "dev",
+    dependencies = {
+      {
+        "AstroNvim/astrocore",
+        opts = function(_, opts)
+          local mappings = opts.mappings
+          local prefix = "<Leader>x"
+          mappings.n[prefix] = {
+            desc = require("astroui").get_icon("Trouble", 1, true) .. "Trouble",
+          }
+          mappings.n[prefix .. "x"] = {
+            "<Cmd>Trouble diagnostics toggle<CR>",
+            desc = "Diagnostics",
+          }
+          mappings.n[prefix .. "X"] = {
+            "<Cmd>Trouble diagnostics toggle filter.buf=0<CR>",
+            desc = "Buffer Diagnostics",
+          }
+          mappings.n[prefix .. "l"] = {
+            "<Cmd>Trouble loclist toggle<CR>",
+            desc = "Location List",
+          }
+          mappings.n[prefix .. "q"] = {
+            "<Cmd>Trouble qflist toggle<CR>",
+            desc = "Quickfix List",
+          }
+          mappings.n[prefix .. "cl"] = {
+            "<Cmd>Trouble symbols toggle focus=false<CR>",
+            desc = "Symbols",
+          }
+          mappings.n[prefix .. "cl"] = {
+            "<Cmd>Trouble lsp toggle focus=false win.position=right<CR>",
+            desc = "LSP Definitions / references / ...",
+          }
+        end,
+      },
+    },
     opts = {
-      mode = "document_diagnostics",
       auto_open = true,
       auto_close = true,
     },
