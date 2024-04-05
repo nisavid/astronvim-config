@@ -240,6 +240,8 @@ return {
   { import = "astrocommunity.programming-language-support.web-tools-nvim" },
   { import = "astrocommunity.project.nvim-spectre" },
   { import = "astrocommunity.project.projectmgr-nvim" },
+  { import = "astrocommunity.recipes.neovide" },
+  { import = "astrocommunity.recipes.vscode" },
   { import = "astrocommunity.search.sad-nvim" },
   --{ import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
