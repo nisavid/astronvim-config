@@ -198,7 +198,7 @@ return {
   { import = "astrocommunity.indent.indent-tools-nvim" },
   { import = "astrocommunity.lsp.garbage-day-nvim" },
   --{ import = "astrocommunity.lsp.inc-rename-nvim" },
-  { import = "astrocommunity.lsp.lsp-signature-nvim" },
+  --{ import = "astrocommunity.lsp.lsp-signature-nvim" },
   { import = "astrocommunity.lsp.nvim-lsp-file-operations" },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
@@ -248,4 +248,5 @@ return {
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.test.nvim-coverage" },
+  { import = "astrocommunity.utility.noice-nvim" },
 }
