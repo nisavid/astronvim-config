@@ -106,7 +106,7 @@ return {
     autocmds = {
       -- Disable `alpha_autostart` due to incompatibility
       -- with `restore_session` (below)
-      alpha_autostart = false,
+      --alpha_autostart = false,
       cursorlines_only_in_curr_win = {
         {
           desc = "Enable cursorcolumn/cursorline in current window",
@@ -125,18 +125,18 @@ return {
           end,
         },
       },
-      restore_session = {
-        {
-          desc = "Restore previous directory session if Neovim is started with no arguments",
-          event = "VimEnter",
-          callback = function()
-            if vim.fn.argc(-1) == 0 then
-              require("resession").load(vim.fn.getcwd(), { dir = "dirsession", silence_errors = true })
-              vim.tbl_map(vim.cmd.doautoall, { "BufReadPre", "BufReadPost" })
-            end
-          end,
-        },
-      },
+      --restore_session = {
+      --  {
+      --    desc = "Restore previous directory session if Neovim is started with no arguments",
+      --    event = "VimEnter",
+      --    callback = function()
+      --      if vim.fn.argc(-1) == 0 then
+      --        require("resession").load(vim.fn.getcwd(), { dir = "dirsession", silence_errors = true })
+      --        vim.tbl_map(vim.cmd.doautoall, { "BufReadPre", "BufReadPost" })
+      --      end
+      --    end,
+      --  },
+      --},
       update_breakindent = {
         {
           desc = "Update breakindent to match effective shiftwidth",
