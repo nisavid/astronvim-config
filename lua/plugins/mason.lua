@@ -18,7 +18,6 @@ return {
         --"pkgbuild_language_server",
         "puppet",
         "sqlls",
-        "stylelint_lsp",
         "texlab",
         "vimls",
         "zls",
