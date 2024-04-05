@@ -114,6 +114,10 @@ return {
   --  end,
   --},
   {
+    "vhyrro/luarocks.nvim",
+    priority = 1000,
+  },
+  {
     "iamcco/markdown-preview.nvim",
     cmd = {
       "MarkdownPreview",

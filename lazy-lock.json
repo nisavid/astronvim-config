@@ -56,6 +56,7 @@
   "lsp_lines.nvim": { "branch": "main", "commit": "6f3defec73f7c87939e800e9afa5d0571b19b401" },
   "lsp_signature.nvim": { "branch": "master", "commit": "c6aeb2f1d2538bbdfdaab1664d9d4c3c75aa9db8" },
   "lspkind.nvim": { "branch": "master", "commit": "1735dd5a5054c1fb7feaf8e8658dbab925f4f0cf" },
+  "luarocks.nvim": { "branch": "main", "commit": "d73f4bbbeea9eeb9b66a0c6431db402654f43cb8" },
   "markdown-preview.nvim": { "branch": "master", "commit": "a923f5fc5ba36a3b17e289dc35dc17f66d0548ee" },
   "mason-lspconfig.nvim": { "branch": "main", "commit": "2ba17cecfde8b8c7c7c287909a1e4de895223df6" },
   "mason-null-ls.nvim": { "branch": "main", "commit": "e270134d83ba59425edc53356c6fd337b61bb8dd" },
