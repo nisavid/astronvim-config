@@ -233,6 +233,7 @@ return {
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.zig" },
   { import = "astrocommunity.programming-language-support.csv-vim" },
   { import = "astrocommunity.programming-language-support.dooku-nvim" },
   { import = "astrocommunity.programming-language-support.web-tools-nvim" },

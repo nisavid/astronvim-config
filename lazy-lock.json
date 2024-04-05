@@ -150,5 +150,6 @@
   "web-tools.nvim": { "branch": "master", "commit": "a831f4347153e7ec40cd85f88ff04a41c5b223dd" },
   "which-key.nvim": { "branch": "main", "commit": "ce741eb559c924d72e3a67d2189ad3771a231414" },
   "yanky.nvim": { "branch": "main", "commit": "7c5cbf0122ff2dfbb6a92f14885894f65949cc8b" },
-  "zi-vim-syntax": { "branch": "main", "commit": "489f4f4e9972ea0ad6deac4c226c74842bb10e40" }
+  "zi-vim-syntax": { "branch": "main", "commit": "489f4f4e9972ea0ad6deac4c226c74842bb10e40" },
+  "zig-tools.nvim": { "branch": "master", "commit": "78a85278fe5d480da2f01df4db898757d7e953b5" }
 }

@@ -19,7 +19,6 @@ return {
         "sqlls",
         "texlab",
         "vimls",
-        "zls",
       })
     end,
   },
