@@ -147,6 +147,7 @@ return {
   { import = "astrocommunity.lsp.nvim-lsp-file-operations" },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+  { import = "astrocommunity.motion.before-nvim" },
   { import = "astrocommunity.motion.flit-nvim" },
   { import = "astrocommunity.motion.grapple-nvim" },
   { import = "astrocommunity.motion.leap-nvim" },
