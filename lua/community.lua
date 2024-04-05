@@ -122,6 +122,7 @@ return {
       require("telescope").load_extension "undo"
     end,
   },
+  { import = "astrocommunity.editing-support.vim-visual-multi" },
   { import = "astrocommunity.editing-support.yanky-nvim" },
   {
     "gbprod/yanky.nvim",
