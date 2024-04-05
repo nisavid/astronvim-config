@@ -12,15 +12,12 @@ return {
       null_ls.builtins.diagnostics.qmllint,
       null_ls.builtins.diagnostics.rpmspec,
       null_ls.builtins.diagnostics.rstcheck,
-      null_ls.builtins.diagnostics.tfsec,
       null_ls.builtins.diagnostics.zsh,
-      --null_ls.builtins.formatting.cabal_fmt,
       null_ls.builtins.formatting.fish_indent,
       null_ls.builtins.formatting.nginx_beautifier,
       null_ls.builtins.formatting.pg_format,
       null_ls.builtins.formatting.qmlformat,
       null_ls.builtins.formatting.shellharden,
-      null_ls.builtins.formatting.shfmt,
       --null_ls.builtins.formatting.xmllint,
     }
     return opts
