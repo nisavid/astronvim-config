@@ -134,6 +134,7 @@ return {
   },
   { import = "astrocommunity.git.blame-nvim" },
   { import = "astrocommunity.git.diffview-nvim" },
+  { import = "astrocommunity.git.fugit2-nvim" },
   { import = "astrocommunity.git.neogit" },
   { import = "astrocommunity.git.octo-nvim" },
   { import = "astrocommunity.git.openingh-nvim" },
