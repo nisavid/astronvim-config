@@ -36,6 +36,7 @@ return {
       "gitattributes",
       "gitcommit",
       "gitignore",
+      "gotmpl",
       "hjson",
       "htmldjango",
       "http",
