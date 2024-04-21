@@ -157,6 +157,7 @@ return {
   { import = "astrocommunity.git.octo-nvim" },
   { import = "astrocommunity.git.openingh-nvim" },
   { import = "astrocommunity.indent.indent-tools-nvim" },
+  { import = "astrocommunity.lsp.actions-preview-nvim" },
   { import = "astrocommunity.lsp.delimited-nvim" },
   { import = "astrocommunity.lsp.garbage-day-nvim" },
   { import = "astrocommunity.lsp.inc-rename-nvim" },
