@@ -102,12 +102,6 @@ return {
     },
   },
   {
-    "code-biscuits/nvim-biscuits",
-    event = "BufEnter",
-    dependencies = { "nvim-treesitter/nvim-treesitter" },
-    build = function() vim.cmd.TSUpdate() end,
-  },
-  {
     "kosayoda/nvim-lightbulb",
     opts = { autocmd = { enabled = true } },
   },

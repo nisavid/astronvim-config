@@ -97,6 +97,7 @@ return {
   },
   { import = "astrocommunity.editing-support.comment-box-nvim" },
   { import = "astrocommunity.editing-support.neogen" },
+  { import = "astrocommunity.editing-support.nvim-context-vt" },
   { import = "astrocommunity.editing-support.nvim-devdocs" },
   { import = "astrocommunity.editing-support.nvim-treesitter-context" },
   { import = "astrocommunity.editing-support.nvim-treesitter-endwise" },
