@@ -1,10 +1,10 @@
 # AstroNvim Configuration
 
-My [Neovim] configuration, based on [AstroNvim], integrating the productivity
-of modern IDE features into the efficiency of modal editing.
+My [**Neovim**] configuration, based on [**AstroNvim**], integrating
+the productivity of modern IDE features into the efficiency of modal editing.
 
-[AstroNvim]: https://astronvim.com
-[Neovim]: https://neovim.io
+[**AstroNvim**]: https://astronvim.com
+[**Neovim**]: https://neovim.io
 
 ## 🛠️ Installation
 
