@@ -135,6 +135,7 @@
   "smart-splits.nvim": { "branch": "master", "commit": "f6fcb79527872e9330c554915af2ca511c388390" },
   "smartcolumn.nvim": { "branch": "main", "commit": "cefb17be095ad5526030a21bb2a80553cae09127" },
   "sqlite.lua": { "branch": "master", "commit": "40701b6151f8883980c1548647116de39b763540" },
+  "sqls.nvim": { "branch": "main", "commit": "4b1274b5b44c48ce784aac23747192f5d9d26207" },
   "ssr.nvim": { "branch": "main", "commit": "bb323ba621ac647b4ac5638b47666e3ef3c279e1" },
   "statuscol.nvim": { "branch": "main", "commit": "483b9a596dfd63d541db1aa51ee6ee9a1441c4cc" },
   "stickybuf.nvim": { "branch": "master", "commit": "2160fcd536d81f5fa43f7167dba6634e814e3154" },

@@ -217,6 +217,7 @@ return {
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.ruby" },
   { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.sql" },
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.terraform" },
