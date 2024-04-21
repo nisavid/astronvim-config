@@ -112,10 +112,6 @@ return {
     opts = { autocmd = { enabled = true } },
   },
   {
-    "nvim-treesitter/nvim-treesitter-context",
-    event = "BufEnter",
-  },
-  {
     "cshuaimin/ssr.nvim",
     keys = { { "<Leader>rs", mode = { "n", "x" }, desc = "Structural search & replace" } },
     config = function()
@@ -130,14 +126,6 @@ return {
     dependencies = { "nvim-telescope/telescope.nvim", "kkharji/sqlite.lua" },
     opts = {
       database = { path = vim.fn.stdpath "state" },
-    },
-  },
-  { "nvim-telescope/telescope-file-browser.nvim", dependencies = { "nvim-lua/plenary.nvim" } },
-  {
-    "nvim-telescope/telescope.nvim",
-    dependencies = { "nvim-telescope/telescope-file-browser.nvim" },
-    keys = {
-      { "<Leader>ff", function() require("telescope").extensions.file_browser.file_browser() end, desc = "Find files" },
     },
   },
   { "crispgm/telescope-heading.nvim", dependencies = { "nvim-treesitter/nvim-treesitter" } },
