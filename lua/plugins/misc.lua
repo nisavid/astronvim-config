@@ -19,40 +19,10 @@ return {
     dependencies = { "nvim-lua/plenary.nvim" },
   },
   {
-    "zbirenbaum/copilot.lua",
-    cmd = "Copilot",
-    event = "User AstroFile",
-    opts = {
-      suggestion = {
-        auto_trigger = true,
-        debounce = 150,
-        keymap = {
-          accept = "<C-l>",
-          accept_word = "<M-l>",
-          accept_line = "<M-j>",
-        },
-      },
-    },
-  },
-  {
     "glacambre/firenvim",
     lazy = not vim.g.started_by_firenvim,
     module = false,
     build = function() vim.fn["firenvim#install"](0) end,
-  },
-  {
-    "ellisonleao/glow.nvim",
-    cmd = { "Glow" },
-    keys = { { "<M-F5>", ":Glow<CR>", desc = "Render markdown (floating)" } },
-    opts = function(_, opts)
-      opts.width = vim.o.columns
-      opts.height = vim.o.lines
-      opts.width_ratio = 0.62
-      opts.height_ratio = 0.76
-      local style = os.getenv "GLAMOUR_STYLE"
-      if style and vim.uv.fs_access(style, "R") then opts.style = style end
-      return opts
-    end,
   },
   {
     "mrjones2014/legendary.nvim",
@@ -116,15 +86,6 @@ return {
   {
     "vhyrro/luarocks.nvim",
     priority = 1000,
-  },
-  {
-    "iamcco/markdown-preview.nvim",
-    cmd = {
-      "MarkdownPreview",
-      "MarkdownPreviewStop",
-      "MarkdownPreviewToggle",
-    },
-    keys = { { "<F5>", "<Plug>MarkdownPreviewToggle", desc = "Render markdown (web browser)" } },
   },
   {
     "jghauser/mkdir.nvim",
