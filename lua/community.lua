@@ -189,6 +189,7 @@ return {
       },
     },
   },
+  { import = "astrocommunity.media.codesnap-nvim" },
   { import = "astrocommunity.motion.before-nvim" },
   { import = "astrocommunity.motion.flit-nvim" },
   { import = "astrocommunity.motion.grapple-nvim" },
