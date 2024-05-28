@@ -39,6 +39,7 @@
   "diffview.nvim": { "branch": "main", "commit": "1ec7b56b959dab18f7030f541c33ae60e18a6f88" },
   "dooku.nvim": { "branch": "main", "commit": "ab70b3fe1b189af2468edc4870e59ec61a8f86a6" },
   "dressing.nvim": { "branch": "master", "commit": "572314728cb1ce012e825fd66331f52c94acac12" },
+  "dropbar.nvim": { "branch": "master", "commit": "2b546383bdf4daa254ac70c760ee1e5524bc60b1" },
   "error-lens.nvim": { "branch": "main", "commit": "e13b966dfd42517a92df1eb5d73fd14905e483a6" },
   "firenvim": { "branch": "master", "commit": "cf4ff99033640b5ec33890bcdc892ddc436ed8e5" },
   "flatten.nvim": { "branch": "main", "commit": "e420e531d2ab24aebcf7b3c9fca28e6c5c34964d" },

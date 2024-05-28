@@ -4,25 +4,7 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.bars-and-lines.bufferline-nvim" },
-  -- Neovim >= 0.10
-  --{ import = "astrocommunity.bars-and-lines.dropbar-nvim" },
-  --{
-  --  "Bekaboo/dropbar.nvim",
-  --  opts = {
-  --    general = {
-  --      enable = function(buf, win)
-  --        -- Disable for confini.  For some reason, dropbar uses only Neovim's built-in tree-sitter integration
-  --        -- (not nvim-treesitter), which fails to map filetype confini to tree-sitter language ini.  This causes
-  --        -- a flood of errors when editing confini files.
-  --        return not vim.api.nvim_win_get_config(win).zindex
-  --          and vim.bo[buf].buftype == ""
-  --          and vim.api.nvim_buf_get_name(buf) ~= ""
-  --          and not vim.wo[win].diff
-  --          and vim.o.filetype ~= "confini"
-  --      end,
-  --    },
-  --  },
-  --},
+  { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
   { import = "astrocommunity.bars-and-lines.statuscol-nvim" },
   { import = "astrocommunity.code-runner.compiler-nvim" },
