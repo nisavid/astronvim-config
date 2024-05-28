@@ -217,7 +217,6 @@ return {
   { import = "astrocommunity.recipes.neovide" },
   { import = "astrocommunity.recipes.vscode" },
   { import = "astrocommunity.search.sad-nvim" },
-  --{ import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
   { "karb94/neoscroll.nvim", enabled = vim.fn.exists "g:goneovim" == 0 },
   { import = "astrocommunity.scrolling.satellite-nvim" },
