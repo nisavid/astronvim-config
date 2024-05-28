@@ -238,10 +238,7 @@ return {
   --{ import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
   { "karb94/neoscroll.nvim", enabled = vim.fn.exists "g:goneovim" == 0 },
-  -- Neovim < 0.10
-  { import = "astrocommunity.scrolling.nvim-scrollbar" },
-  -- Neovim >= 0.10
-  --{ import = "astrocommunity.scrolling.satellite-nvim" },
+  { import = "astrocommunity.scrolling.satellite-nvim" },
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.test.nvim-coverage" },
