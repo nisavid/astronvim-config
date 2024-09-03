@@ -89,6 +89,7 @@
   "neoconf.nvim": { "branch": "main", "commit": "f5befe4772c9d94c43bd3dd318f5546cf955ba3f" },
   "neogen": { "branch": "main", "commit": "e932ba918b56723436b77aa3efb844a11b2851ab" },
   "neogit": { "branch": "master", "commit": "9bc4ee89bb42be31a2f0b1da41e36e3e6cab9bbb" },
+  "neominimap.nvim": { "branch": "main", "commit": "189d9a1ffe9587452e9e432e7abbd7424374e5ce" },
   "neoscroll.nvim": { "branch": "master", "commit": "6dfce64589e8e685d21f2dbd2df15a2473fa1d41" },
   "neotest": { "branch": "master", "commit": "6d6ad113f56edc7c3f2a77a0836ea8c1b955ebea" },
   "neotest-go": { "branch": "main", "commit": "92950ad7be2ca02a41abca5c6600ff6ffaf5b5d6" },

@@ -240,6 +240,7 @@ return {
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
   { "karb94/neoscroll.nvim", enabled = vim.fn.exists "g:goneovim" == 0 },
   { import = "astrocommunity.scrolling.satellite-nvim" },
+  { import = "astrocommunity.split-and-window.neominimap-nvim" },
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.test.nvim-coverage" },
