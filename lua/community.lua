@@ -83,6 +83,8 @@ return {
   },
   { import = "astrocommunity.docker.lazydocker" },
   { import = "astrocommunity.editing-support.comment-box-nvim" },
+  { import = "astrocommunity.editing-support.conform-nvim" },
+  { import = "astrocommunity.editing-support.copilotchat-nvim" },
   { import = "astrocommunity.editing-support.neogen" },
   { import = "astrocommunity.editing-support.nvim-context-vt" },
   { import = "astrocommunity.editing-support.nvim-devdocs" },
@@ -125,6 +127,7 @@ return {
       require("telescope").load_extension "undo"
     end,
   },
+  --{ import = "astrocommunity.editing-support.vim-doge" },
   { import = "astrocommunity.editing-support.vim-visual-multi" },
   { import = "astrocommunity.editing-support.yanky-nvim" },
   {
