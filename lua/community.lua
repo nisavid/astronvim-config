@@ -27,7 +27,6 @@ return {
       },
     },
   },
-  { import = "astrocommunity.debugging.nvim-bqf" },
   { import = "astrocommunity.debugging.nvim-dap-repl-highlights" },
   { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
   { import = "astrocommunity.debugging.persistent-breakpoints-nvim" },
@@ -36,7 +35,6 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   {
     "folke/trouble.nvim",
-    branch = "dev",
     dependencies = {
       {
         "AstroNvim/astrocore",
@@ -74,8 +72,12 @@ return {
       },
     },
     opts = {
-      auto_open = true,
-      auto_close = true,
+      modes = {
+        diagnostics = {
+          auto_open = true,
+          auto_close = true,
+        },
+      },
     },
   },
   { import = "astrocommunity.editing-support.comment-box-nvim" },
@@ -213,10 +215,11 @@ return {
   { import = "astrocommunity.programming-language-support.rest-nvim" },
   { import = "astrocommunity.programming-language-support.dooku-nvim" },
   { import = "astrocommunity.programming-language-support.web-tools-nvim" },
-  { import = "astrocommunity.project.nvim-spectre" },
   { import = "astrocommunity.project.projectmgr-nvim" },
+  { import = "astrocommunity.quickfix.nvim-bqf" },
   { import = "astrocommunity.recipes.neovide" },
   { import = "astrocommunity.recipes.vscode" },
+  { import = "astrocommunity.search.nvim-spectre" },
   { import = "astrocommunity.search.sad-nvim" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
   { "karb94/neoscroll.nvim", enabled = vim.fn.exists "g:goneovim" == 0 },
