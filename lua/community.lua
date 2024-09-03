@@ -155,20 +155,20 @@ return {
   { import = "astrocommunity.lsp.lsplinks-nvim" },
   --{ import = "astrocommunity.lsp.lsp-signature-nvim" },
   { import = "astrocommunity.lsp.nvim-lsp-file-operations" },
-  { import = "astrocommunity.markdown-and-latex.glow-nvim" },
-  {
-    "ellisonleao/glow.nvim",
-    keys = { { "<M-F5>", ":Glow<CR>", desc = "Render markdown (floating)" } },
-    opts = function(_, opts)
-      opts.width = vim.o.columns
-      opts.height = vim.o.lines
-      opts.width_ratio = 0.62
-      opts.height_ratio = 0.76
-      local style = os.getenv "GLAMOUR_STYLE"
-      if style and vim.uv.fs_access(style, "R") then opts.style = style end
-      return opts
-    end,
-  },
+  --{ import = "astrocommunity.markdown-and-latex.glow-nvim" },
+  --{
+  --  "ellisonleao/glow.nvim",
+  --  keys = { { "<M-F5>", ":Glow<CR>", desc = "Render markdown (floating)" } },
+  --  opts = function(_, opts)
+  --    opts.width = vim.o.columns
+  --    opts.height = vim.o.lines
+  --    opts.width_ratio = 0.62
+  --    opts.height_ratio = 0.76
+  --    local style = os.getenv "GLAMOUR_STYLE"
+  --    if style and vim.uv.fs_access(style, "R") then opts.style = style end
+  --    return opts
+  --  end,
+  --},
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   {
     "iamcco/markdown-preview.nvim",
@@ -180,6 +180,7 @@ return {
       },
     },
   },
+  { import = "astrocommunity.markdown-and-latex.markview-nvim" },
   { import = "astrocommunity.media.codesnap-nvim" },
   { import = "astrocommunity.motion.before-nvim" },
   { import = "astrocommunity.motion.flit-nvim" },
