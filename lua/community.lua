@@ -12,6 +12,7 @@ return {
   { import = "astrocommunity.color.headlines-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.completion.cmp-cmdline" },
+  { import = "astrocommunity.completion.cmp-git" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   {
     "zbirenbaum/copilot.lua",
