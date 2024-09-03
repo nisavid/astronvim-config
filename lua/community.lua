@@ -191,6 +191,7 @@ return {
   { import = "astrocommunity.motion.portal-nvim" },
   { import = "astrocommunity.motion.vim-matchup" },
   { import = "astrocommunity.neovim-lua-development.helpview-nvim" },
+  { import = "astrocommunity.note-taking.venn-nvim" },
   { import = "astrocommunity.pack.angular" },
   { import = "astrocommunity.pack.ansible" },
   { import = "astrocommunity.pack.bash" },
