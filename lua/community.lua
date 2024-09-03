@@ -81,6 +81,7 @@ return {
       },
     },
   },
+  { import = "astrocommunity.docker.lazydocker" },
   { import = "astrocommunity.editing-support.comment-box-nvim" },
   { import = "astrocommunity.editing-support.neogen" },
   { import = "astrocommunity.editing-support.nvim-context-vt" },
