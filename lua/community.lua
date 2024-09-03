@@ -245,4 +245,5 @@ return {
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.test.nvim-coverage" },
   { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.utility.vim-fetch" },
 }
