@@ -15,10 +15,6 @@ return {
     end,
   },
   {
-    "xvzc/chezmoi.nvim",
-    dependencies = { "nvim-lua/plenary.nvim" },
-  },
-  {
     "glacambre/firenvim",
     lazy = not vim.g.started_by_firenvim,
     module = false,
