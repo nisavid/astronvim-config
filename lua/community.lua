@@ -208,6 +208,21 @@ return {
   { import = "astrocommunity.pack.elm" },
   { import = "astrocommunity.pack.fish" },
   { import = "astrocommunity.pack.full-dadbod" },
+  -- Consider adding harper in the future.  For now, it's not included
+  -- because it produces extremely noisy false positives in commented-out
+  -- source code (e.g. in this file).
+  --{ import = "astrocommunity.pack.harper" },
+  -- AstroCommunity's config specifies `harper-ls` even though mason-lspconfig
+  -- only recognizes `harper_ls`.
+  --{
+  --  "williamboman/mason-lspconfig.nvim",
+  --  opts = function(_, opts)
+  --    opts.ensure_installed = require("astrocore").list_insert_unique(
+  --      vim.tbl_filter(function(item) return item ~= "harper-ls" end, opts.ensure_installed),
+  --      { "harper_ls" }
+  --    )
+  --  end,
+  --},
   { import = "astrocommunity.pack.haskell" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.hyprlang" },
