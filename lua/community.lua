@@ -256,6 +256,7 @@ return {
   { import = "astrocommunity.quickfix.nvim-bqf" },
   { import = "astrocommunity.recipes.neovide" },
   { import = "astrocommunity.recipes.vscode" },
+  { import = "astrocommunity.remote-development.remote-sshfs-nvim" },
   { import = "astrocommunity.search.nvim-spectre" },
   { import = "astrocommunity.search.sad-nvim" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
