@@ -12,6 +12,9 @@ return {
   { import = "astrocommunity.color.headlines-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.completion.avante-nvim" },
+  -- Consider switching from nvim-cmp to blink.cmp someday in the future
+  -- when blink.cmp is more mature.
+  --{ import = "astrocommunity.completion.blink-cmp" },
   { import = "astrocommunity.completion.cmp-cmdline" },
   { import = "astrocommunity.completion.cmp-git" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
